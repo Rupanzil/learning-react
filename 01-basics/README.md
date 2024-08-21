@@ -1,7 +1,20 @@
-# My observations
+# My own observations
 
 1. Very easy to understand
 2. clear examples
+
+## What are props?
+
+I have struggled to understand this so much and the main reason being is my lack of knowledge in Vanilla JS. So, anyone who is reading this and if you are not good in Vanilla JS yet, then **do not** start learning React, it will be a waste of time.
+Now, coming back to the concept of props (Everything below is strongly "IMO"):
+Let me tell you story here. So, as I was starting to build out the table in the project here, I realised that I need a way in which I can change the value of the each data in the table row. But I did not know how to do it. So, here comes the props.
+Just as we can pass arguments to a function, props are the argument (objects) which are passed to the "component" (component is also basically a function which returns "special" HTML).
+
+So, **_Props_** are basically objects through which we can pass data to the component so that it can render it accordingly.
+
+So, the thing which confused me previously was that peopole accessed props in different manner. Some used `prop.name`, some destructured them. It was not a problem of understanding react rather I was weak in JS.
+
+## **++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++**
 
 **This md is from John Smilga's React course notes**
 
