@@ -1,0 +1,30 @@
+.book {
+  margin: 2rem auto;
+  position: relative;
+  max-width: 25vw;
+  padding: 1rem;
+  /* border: 1px rgb(49, 46, 46) solid; */
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: azure;
+}
+
+img {
+  border: 1px black solid;
+  border-radius: 1rem;
+}
+
+.book-rank {
+  position: absolute;
+  padding: 0.5rem 2rem;
+  /* width: 50px;
+  height: 24px; */
+  background-color: orange;
+  color: white;
+  top: 1rem;
+  right: 0;
+  margin-right: -16px;
+}
