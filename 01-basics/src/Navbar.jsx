@@ -2,7 +2,7 @@ import './navbar.css'
 
 export default function Navbar() {
   return (
-    <navbar>
+    <nav>
       <ul>
         <a href="#">
           <li>Home</li>
@@ -14,6 +14,6 @@ export default function Navbar() {
           <li>Services</li>
         </a>
       </ul>
-    </navbar>
+    </nav>
   )
 }
